@@ -1,8 +1,3 @@
-/*
-  font-family: 'Montserrat', sans-serif; 100it/800
-  font-family: 'Open Sans', sans-serif; 400/400it/700/700it
-*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -10,4 +5,102 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  border: 2px #ffffff solid;
+  color: #e2e8e0;
+  padding: 30px 30px 40px 30px;
+  margin: 21px 2px;
+  background-image:url(../img/background-code.jpg);
+  background-size: 220%;
+  background-position: center; 
+}
+
+em {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #2afca6;
+}
+
+h1 {
+  font-size: 26px; 
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div h2 {
+  font-size: 16px;
+}
+
+div {
+  background: #2afca6;
+  padding: 18px 28px 31px 25px;
+  margin: 20px 2px;
+  color: #074935;
+}
+
+article {
+  background: #ffffff;
+  padding: 19px 28px 33px 28px;
+  margin: 18px 2px;
+}
+
+.autor {
+  padding: 5px 0px;
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+.date {
+  color: black;
+}
+
+.name {
+  color: #2afca6;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  box-shadow: 7px 7px 12px rgb(219, 219, 219) ;
+  margin: 0px 0px 30px 0px;
+}
+
+figcaption {
+  font-size: 12px;
+  padding: 5px 14px;
+}
+
+a {
+  background: #444444;
+  padding: 6px 15px;
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  border: 2px #2afca6 solid;
+  padding: 5px;
+  margin: 22px 2px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.credit {
+  font-size: 10px;
+  color: #ffffff;
 }
