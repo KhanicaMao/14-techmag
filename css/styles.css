@@ -16,20 +16,21 @@ header {
   padding: 30px 30px 40px 30px;
   margin: 21px 2px;
   background-image:url(../img/background-code.jpg);
-  background-size: 220%;
+  background-size: 250%;
   background-position: center; 
+  filter: brightness(70%);
 }
 
 em {
+  color: #2afca6;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  color: #2afca6;
 }
 
 h1 {
+  color: #ffffff;
   font-size: 26px; 
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
 }
 
 h2 {
@@ -43,9 +44,9 @@ div h2 {
 
 div {
   background: #2afca6;
+  color: #074935;
   padding: 18px 28px 31px 25px;
   margin: 20px 2px;
-  color: #074935;
 }
 
 article {
@@ -55,9 +56,9 @@ article {
 }
 
 .autor {
+  color: #b6b6b6;
   padding: 5px 0px;
   font-size: 12px;
-  color: #b6b6b6;
 }
 
 .date {
@@ -84,23 +85,24 @@ figcaption {
 
 a {
   background: #444444;
-  padding: 6px 15px;
   color: #ffffff;
+  padding: 6px 15px;
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-decoration: none;
 }
 
 footer {
   border: 2px #2afca6 solid;
+  color: #ffffff;
   padding: 5px;
   margin: 22px 2px;
-  color: #ffffff;
   text-align: center;
   font-size: 12px;
 }
 
 .credit {
-  font-size: 10px;
   color: #ffffff;
+  font-size: 10px;
 }
